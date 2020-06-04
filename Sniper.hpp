@@ -1,6 +1,6 @@
 #include "Soldier.hpp"
 #include <math.h>
-
+using namespace WarGame;
 //FootSoldier: initial health points=100, damage per activity=10
 namespace WarGame{
 
