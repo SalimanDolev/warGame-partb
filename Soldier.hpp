@@ -38,5 +38,7 @@ class Soldier{
     }
 
     virtual void Attacking(std::vector<std::vector<Soldier*>>&,uint,std::pair<int,int>) =0;
+    
+    virtual ~Soldier(){}
     };
 };
